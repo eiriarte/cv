@@ -1,6 +1,5 @@
 import EsFlag from "./assets/es.svg?react";
 import EnFlag from "./assets/uk.svg?react";
-import ContentPaste from "@mui/icons-material/ContentPaste";
 import {
   AppBar,
   IconButton,
@@ -17,7 +16,7 @@ import { ElementType, useState } from "react";
 
 type LocaleChangeCallback = (value: string) => void;
 
-function Appbar({
+function MainAppbar({
   locale,
   onLocaleChange
 }: {
@@ -25,7 +24,7 @@ function Appbar({
   onLocaleChange: LocaleChangeCallback;
 }) {
   const Flag = (locale === "es" ? EsFlag : EnFlag) as ElementType;
-  const title = locale === "es" ? "Desarrollador Full-stack" : "Full-stack developer";
+  const title = locale === "es" ? "Desarrollador full-stack" : "Full-stack developer";
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
   const handleMenuClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -46,7 +45,7 @@ function Appbar({
             {title}
           </Typography>
           <Tooltip title="Cambiar idioma">
-            <IconButton color="inherit" onClick={handleMenuClick}>
+            <IconButton onClick={handleMenuClick}>
               <SvgIcon component={Flag} viewBox="0 0 512 512" sx={{ borderRadius: "50%" }} />
             </IconButton>
           </Tooltip>
@@ -88,9 +87,8 @@ function Appbar({
           </Menu>
         </Toolbar>
       </AppBar>
-      <Toolbar variant="dense" />
     </>
   );
 }
 
-export default Appbar;
+export default MainAppbar;
