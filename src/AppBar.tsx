@@ -1,8 +1,11 @@
 import EsFlag from "./assets/es.svg?react";
 import EnFlag from "./assets/uk.svg?react";
+import ContentPaste from "@mui/icons-material/ContentPaste";
 import {
   AppBar,
   IconButton,
+  ListItemIcon,
+  ListItemText,
   Menu,
   MenuItem,
   SvgIcon,
@@ -12,7 +15,7 @@ import {
 } from "@mui/material";
 import { ElementType, useState } from "react";
 
-export type LocaleChangeCallback = (value: string) => void;
+type LocaleChangeCallback = (value: string) => void;
 
 function Appbar({
   locale,
@@ -60,13 +63,27 @@ function Appbar({
               selected={locale === "en"}
               onClick={(event) => handleMenuItemClick(event, "en")}
             >
-              {locale === "es" ? "Inglés" : "English"}
+              <ListItemIcon>
+                <SvgIcon
+                  component={EnFlag as ElementType}
+                  viewBox="0 0 512 512"
+                  sx={{ borderRadius: "50%" }}
+                />
+              </ListItemIcon>
+              <ListItemText>{locale === "es" ? "Inglés" : "English"}</ListItemText>
             </MenuItem>
             <MenuItem
               selected={locale === "es"}
               onClick={(event) => handleMenuItemClick(event, "es")}
             >
-              {locale === "es" ? "Español" : "Spanish"}
+              <ListItemIcon>
+                <SvgIcon
+                  component={EsFlag as ElementType}
+                  viewBox="0 0 512 512"
+                  sx={{ borderRadius: "50%" }}
+                />
+              </ListItemIcon>
+              <ListItemText>{locale === "es" ? "Español" : "Spanish"}</ListItemText>
             </MenuItem>
           </Menu>
         </Toolbar>
