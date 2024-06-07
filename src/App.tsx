@@ -1,6 +1,8 @@
 import "../node_modules/i18nresume/dist/style.css";
 import MainAppBar from "./MainAppBar";
 import resume from "./assets/resume.json";
+import InterestsIcon from "@mui/icons-material/Interests";
+import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
@@ -18,7 +20,7 @@ function App() {
     setSelectedTab(newValue);
   };
   const theme = useTheme();
-  const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"));
+  const isLargeScreen = useMediaQuery(theme.breakpoints.up("md"));
   return (
     <>
       <MainAppBar locale={locale} onLocaleChange={handleLocalChange} />
@@ -31,8 +33,18 @@ function App() {
               variant={isLargeScreen ? "standard" : "fullWidth"}
               onChange={handleChange}
             >
-              <Tab label={locale === "es" ? "Currículum" : "Resume"} value="1" />
-              <Tab label={locale === "es" ? "Trabajos" : "Porfolio"} value="2" />
+              <Tab
+                icon={<WorkspacePremiumIcon />}
+                label={locale === "es" ? "Currículum" : "Resume"}
+                iconPosition={isLargeScreen ? "start" : "top"}
+                value="1"
+              />
+              <Tab
+                icon={<InterestsIcon />}
+                label={locale === "es" ? "Trabajos" : "Porfolio"}
+                iconPosition={isLargeScreen ? "start" : "top"}
+                value="2"
+              />
             </TabList>
           </Box>
         </Box>
