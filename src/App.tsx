@@ -1,38 +1,36 @@
-import "../node_modules/i18nresume/dist/style.css";
-import "./App.css";
 import MainAppBar from "./MainAppBar";
-import resume from "./assets/resume.json";
+import Portfolio from "./Portfolio";
+import Resume from "./Resume";
 import InterestsIcon from "@mui/icons-material/Interests";
 import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import { Box, Tab, Toolbar, useMediaQuery, useTheme } from "@mui/material";
-import I18NResume from "i18nresume";
 import { useState } from "react";
 
 function App() {
+  const theme = useTheme();
   const [locale, setLocale] = useState("en");
-  const handleLocalChange = (value: string) => {
+  const [selectedTab, setSelectedTab] = useState("1");
+  const isLargeScreen = useMediaQuery(theme.breakpoints.up("md"));
+  const handleLocaleChange = (value: string) => {
     setLocale(value);
   };
-  const [selectedTag, setSelectedTab] = useState("1");
-  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
+  const handleTabChange = (_event: React.SyntheticEvent, newValue: string) => {
     setSelectedTab(newValue);
   };
-  const theme = useTheme();
-  const isLargeScreen = useMediaQuery(theme.breakpoints.up("md"));
   return (
     <>
-      <MainAppBar locale={locale} onLocaleChange={handleLocalChange} />
-      <TabContext value={selectedTag}>
-        <Box position="sticky" top={0} sx={{ backgroundColor: "white" }}>
+      <MainAppBar locale={locale} onLocaleChange={handleLocaleChange} />
+      <TabContext value={selectedTab}>
+        <Box position="sticky" top={0} sx={{ backgroundColor: "white", zIndex: 9 }}>
           <Toolbar variant="dense" />
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <TabList
               centered={isLargeScreen}
               variant={isLargeScreen ? "standard" : "fullWidth"}
-              onChange={handleChange}
+              onChange={handleTabChange}
             >
               <Tab
                 icon={<WorkspacePremiumIcon />}
@@ -50,10 +48,10 @@ function App() {
           </Box>
         </Box>
         <TabPanel value="1" sx={{ padding: 0 }}>
-          <I18NResume data={resume} locale={locale} />
+          <Resume locale={locale} />
         </TabPanel>
         <TabPanel value="2" sx={{ padding: 0 }}>
-          Item Two
+          <Portfolio locale={locale} />
         </TabPanel>
       </TabContext>
     </>

@@ -29,6 +29,7 @@
         "name": "Mary Wollstonecraft Shelley",
         "label": "Escritora",
         "email": "maryshelley@literature.com",
+        "image": "/images/devs.png",
         "phone": "(123) 456-7890",
         "url": "http://shelleygodwinarchive.org/",
         "summary": "Novelista inglesa conocida por la novela gótica «Frankenstein». También he escrito muchas otras obras, incluyendo novelas históricas, poesía, libros de viajes y biografías.",
@@ -315,6 +316,7 @@
         "label": "Author",
         "email": "maryshelley@literature.com",
         "phone": "(123) 456-7890",
+        "image": "/images/devs.png",
         "url": "http://shelleygodwinarchive.org/",
         "summary": "I'm a novelist best known for my Gothic novel 'Frankenstein'. I also authored several other works, including historical novels, poems, travel books, and biographies.",
         "location": {
