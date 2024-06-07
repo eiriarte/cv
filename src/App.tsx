@@ -6,7 +6,7 @@ import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-import { Box, Tab, Toolbar, useMediaQuery, useTheme } from "@mui/material";
+import { Box, Paper, Tab, Toolbar, useMediaQuery, useTheme } from "@mui/material";
 import { useState } from "react";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
       <TabContext value={selectedTab}>
         <Box position="sticky" top={0} sx={{ backgroundColor: "white", zIndex: 9 }}>
           <Toolbar variant="dense" />
-          <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+          <Paper elevation={2} square sx={{ borderBottom: 1, borderColor: "divider" }}>
             <TabList
               centered={isLargeScreen}
               variant={isLargeScreen ? "standard" : "fullWidth"}
@@ -45,7 +45,7 @@ function App() {
                 value="2"
               />
             </TabList>
-          </Box>
+          </Paper>
         </Box>
         <TabPanel value="1" sx={{ padding: 0 }}>
           <Resume locale={locale} />
