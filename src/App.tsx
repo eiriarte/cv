@@ -1,4 +1,5 @@
 import "../node_modules/i18nresume/dist/style.css";
+import "./App.css";
 import MainAppBar from "./MainAppBar";
 import resume from "./assets/resume.json";
 import InterestsIcon from "@mui/icons-material/Interests";
