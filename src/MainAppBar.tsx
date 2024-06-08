@@ -31,8 +31,17 @@ function MainAppbar({
   filter: FilterOption;
   onFilterChange: FilterChangeCallback;
 }) {
+  const strings = {
+    title: { es: "Desarrollador full-stack", en: "Full-stack engineer" },
+    chooseLanguage: { es: "Elegir idioma", en: "Choose language" },
+    spanish: { es: "Español", en: "Spanish" },
+    english: { es: "Inglés", en: "English" },
+    filterSkills: { es: "Filtrar competencias", en: "Filter by skills" },
+    all: { es: "Todo", en: "All skills" },
+    F: { es: "Solo frontend", en: "Frontend skills" },
+    B: { es: "Solo backend", en: "Backend skills" }
+  };
   const Flag = (locale === "es" ? EsFlag : EnFlag) as ElementType;
-  const title = locale === "es" ? "Desarrollador full-stack" : "Full-stack engineer";
   const [localeAnchor, setLocaleAnchor] = useState<null | HTMLElement>(null);
   const [filterAnchor, setFilterAnchor] = useState<null | HTMLElement>(null);
   const handleLocaleMenuClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -55,15 +64,6 @@ function MainAppbar({
     setFilterAnchor(null);
     console.log(newValue);
     onFilterChange(newValue);
-  };
-  const strings = {
-    chooseLanguage: { es: "Elegir idioma", en: "Choose language" },
-    spanish: { es: "Español", en: "Spanish" },
-    english: { es: "Inglés", en: "English" },
-    filterSkills: { es: "Filtrar por habilidades", en: "Filter by skills" },
-    all: { es: "Todo", en: "All skills" },
-    F: { es: "Frontend", en: "Frontend" },
-    B: { es: "Backend", en: "Backend" }
   };
 
   const renderLocaleMenu = (
@@ -162,7 +162,7 @@ function MainAppbar({
       <AppBar>
         <Toolbar variant="dense">
           <Typography variant="h6" component="h1" sx={{ flexGrow: 1, whiteSpace: "nowrap" }}>
-            {title}
+            {strings.title[locale]}
           </Typography>
           {renderFilterMenu()}
           {renderLocaleMenu}
