@@ -1,3 +1,5 @@
+import { FilterOption } from "./MainAppBar";
+import OpacityFilter from "./OpacityFilter";
 import portfolio from "./assets/portfolio.json";
 import {
   Button,
@@ -20,6 +22,7 @@ interface IPortfolio {
     position: string;
     description: string;
     skills: string[];
+    keywords: string[];
     links: {
       anchor: string;
       url: string;
@@ -27,7 +30,7 @@ interface IPortfolio {
   }[];
 }
 
-function Portfolio({ locale }: { locale: string }) {
+function Portfolio({ locale, filter }: { locale: string; filter: FilterOption[] }) {
   return (
     <Container fixed sx={{ paddingY: 4 }}>
       <Grid container spacing={2}>
@@ -41,43 +44,45 @@ function Portfolio({ locale }: { locale: string }) {
             justifyContent="center"
             alignItems="flex-start"
           >
-            <Card variant="elevation" sx={{ maxWidth: 300 }}>
-              <CardMedia
-                component="img"
-                sx={{ height: 150 }}
-                image={"/images/" + work.screenshot}
-                alt=""
-              />
-              <CardContent>
-                <Typography variant="h5" component="h3">
-                  {work.title}
-                </Typography>
-                <Typography sx={{ mb: 1.5 }} variant="subtitle1" color="text.secondary">
-                  {work.position}
-                </Typography>
-                <Typography sx={{ mb: 2 }} variant="body2" color="text.secondary">
-                  {work.description}
-                </Typography>
-                <Stack direction="row" spacing={1} useFlexGap flexWrap="wrap">
-                  {work.skills.map((skill) => (
-                    <Chip key={skill} label={skill} size="small" />
+            <OpacityFilter keywords={work.keywords} query={filter}>
+              <Card variant="elevation" sx={{ maxWidth: 300 }}>
+                <CardMedia
+                  component="img"
+                  sx={{ height: 150 }}
+                  image={"/images/" + work.screenshot}
+                  alt=""
+                />
+                <CardContent>
+                  <Typography variant="h5" component="h3">
+                    {work.title}
+                  </Typography>
+                  <Typography sx={{ mb: 1.5 }} variant="subtitle1" color="text.secondary">
+                    {work.position}
+                  </Typography>
+                  <Typography sx={{ mb: 2 }} variant="body2" color="text.secondary">
+                    {work.description}
+                  </Typography>
+                  <Stack direction="row" spacing={1} useFlexGap flexWrap="wrap">
+                    {work.skills.map((skill) => (
+                      <Chip key={skill} label={skill} size="small" />
+                    ))}
+                  </Stack>
+                </CardContent>
+                <CardActions>
+                  {work.links.map((link) => (
+                    <Button
+                      href={link.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      key={link.anchor}
+                      size="small"
+                    >
+                      {link.anchor}
+                    </Button>
                   ))}
-                </Stack>
-              </CardContent>
-              <CardActions>
-                {work.links.map((link) => (
-                  <Button
-                    href={link.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    key={link.anchor}
-                    size="small"
-                  >
-                    {link.anchor}
-                  </Button>
-                ))}
-              </CardActions>
-            </Card>
+                </CardActions>
+              </Card>
+            </OpacityFilter>
           </Grid>
         ))}
       </Grid>

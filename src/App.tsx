@@ -71,7 +71,7 @@ function App() {
           <Resume locale={locale} filter={filterList} />
         </TabPanel>
         <TabPanel value="2" sx={{ padding: 0 }}>
-          <Portfolio locale={locale} />
+          <Portfolio locale={locale} filter={filterList} />
         </TabPanel>
       </TabContext>
     </>

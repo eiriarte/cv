@@ -7,6 +7,7 @@
       "position": "Personal project",
       "description": "Personal blog on web development. Custom WordPress plugin.",
       "skills": ["PHP", "WordPress", "Apache", "Nginx"],
+      "keywords": ["B"],
       "links": [
         {
           "anchor": "Web",
@@ -21,6 +22,7 @@
       "position": "Developer at Ayesa",
       "description": "Portal for registrations in the employment agency for the Andalusian Health Service.",
       "skills": ["PHP", "JavaScript", "CSS", "PL/SQL", "Oracle"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Web",
@@ -39,6 +41,7 @@
       "position": "Non-profit project",
       "description": "Bilingual website for the Sevillian Esperanto Association. Custom WordPress theme.",
       "skills": ["PHP", "WordPress", "JavaScript", "Sass"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Web",
@@ -53,6 +56,7 @@
       "position": "Side project",
       "description": "Entertainment website with Node.js + MongoDB server (formerly PHP, MySQL and Backbone.js).",
       "skills": ["Node.js", "Express", "MongoDB", "Sass", "PHP", "MySQL"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Web",
@@ -71,6 +75,7 @@
       "position": "Personal project",
       "description": "Spanish/english educational website for Spanish learners. Hosted in Amazon S3 and CloudFront.",
       "skills": ["JavaScript", "CSS", "Node.js", "AWS"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Web",
@@ -85,6 +90,7 @@
       "description": "Multi-user tool for language learning using spaced repetition algorithms.",
       "position": "Personal project",
       "skills": ["JavaScript", "AngularJS", "Node.js", "MongoDB"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Github",
@@ -103,6 +109,7 @@
       "position": "Side project",
       "description": "Educational Android/iOS app for Spanish learners.",
       "skills": ["JavaScript", "React", "React Native"],
+      "keywords": ["F"],
       "links": [
         {
           "anchor": "Github",
@@ -117,6 +124,7 @@
       "position": "Non-profit project",
       "description": "Web app to manage volunteer work for the Association ANDEX.",
       "skills": ["JavaScript", "CoffeScript", "AngularJS", "Node.js", "Express", "MongoDB", "Sass"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Github",
@@ -135,6 +143,7 @@
       "position": "Personal project",
       "description": "Multi-platform productivity app (timed TODO lists).",
       "skills": ["JavaScript", "React", "Electron", "Sass"],
+      "keywords": ["F"],
       "links": [
         {
           "anchor": "Github",
@@ -151,6 +160,7 @@
       "position": "Proyecto propio",
       "description": "Blog personal sobre desarrollo web. Plugin de WordPress a medida.",
       "skills": ["PHP", "WordPress", "Apache", "Nginx"],
+      "keywords": ["B"],
       "links": [
         {
           "anchor": "Web",
@@ -165,6 +175,7 @@
       "position": "Programador en Ayesa",
       "description": "Portal de inscripción en la bolsa de empleo temporal del Servicio Andaluz de Salud.",
       "skills": ["PHP", "PL/SQL", "Oracle", "JavaScript", "CSS"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Web",
@@ -183,6 +194,7 @@
       "position": "Diseño e implementación",
       "description": "Portal bilingüe de la Asociación Sevillana de Esperanto. Tema de WordPress a medida.",
       "skills": ["PHP", "WordPress", "JavaScript", "Sass"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Web",
@@ -206,6 +218,7 @@
         "MySQL",
         "Backbone.js"
       ],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Web",
@@ -224,6 +237,7 @@
       "position": "Proyecto propio",
       "description": "Web bilingüe educativa para estudiantes de español. Alojado en Amazon S3 y CloudFront.",
       "skills": ["JavaScript", "CSS", "Node.js", "AWS"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Web",
@@ -238,6 +252,7 @@
       "description": "Herramienta multiusuario para el aprendizaje de idiomas basada repetición espaciada.",
       "position": "Proyecto propio",
       "skills": ["JavaScript", "AngularJS", "Node.js", "MongoDB"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Github",
@@ -256,6 +271,7 @@
       "position": "Proyecto propio",
       "description": "Aplicación Android/iOS educativa para estudiantes de español.",
       "skills": ["JavaScript", "React", "React Native"],
+      "keywords": ["F"],
       "links": [
         {
           "anchor": "Github",
@@ -270,6 +286,7 @@
       "position": "Voluntariado",
       "description": "Aplicación web para gestionar los grupos de voluntarios de la asociación de ANDEX.",
       "skills": ["JavaScript", "CoffeScript", "AngularJS", "Node.js", "Express", "MongoDB", "Sass"],
+      "keywords": ["F", "B"],
       "links": [
         {
           "anchor": "Github",
@@ -288,6 +305,7 @@
       "position": "Proyecto propio",
       "description": "Aplicación multiplataforma de productividad (listas de tareas cronometradas).",
       "skills": ["JavaScript", "React", "Electron", "Sass"],
+      "keywords": ["F"],
       "links": [
         {
           "anchor": "Github",
