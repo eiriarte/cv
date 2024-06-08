@@ -1,4 +1,4 @@
-import MainAppBar from "./MainAppBar";
+import MainAppBar, { FilterOption } from "./MainAppBar";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 import InterestsIcon from "@mui/icons-material/Interests";
@@ -10,19 +10,39 @@ import { Box, Paper, Tab, Toolbar, useMediaQuery, useTheme } from "@mui/material
 import { useState } from "react";
 
 function App() {
+  // TODO: combo de filter en el AppBar
+  // TODO: combo de filter en el AppBar
+  // TODO: combo de filter en el AppBar
+  // TODO: combo de filter en el AppBar
+  // TODO: meter y mis datos
+  // TODO: meter y mis datos
+  // TODO: meter y mis datos
+  // TODO: desplegar en cv.entrellaves.com: probar en móvil
+  // TODO: desplegar en cv.entrellaves.com: probar en móvil
+  // TODO: desplegar en cv.entrellaves.com: probar en móvil
   const theme = useTheme();
-  const [locale, setLocale] = useState("en");
+  const [locale, setLocale] = useState<"en" | "es">("en");
+  const [filter, setFilter] = useState<FilterOption>("all");
+  const filterList = filter === "all" ? [] : [filter];
   const [selectedTab, setSelectedTab] = useState("1");
   const isLargeScreen = useMediaQuery(theme.breakpoints.up("md"));
-  const handleLocaleChange = (value: string) => {
+  const handleLocaleChange = (value: "en" | "es") => {
     setLocale(value);
+  };
+  const handleFilterChange = (value: FilterOption) => {
+    setFilter(value);
   };
   const handleTabChange = (_event: React.SyntheticEvent, newValue: string) => {
     setSelectedTab(newValue);
   };
   return (
     <>
-      <MainAppBar locale={locale} onLocaleChange={handleLocaleChange} />
+      <MainAppBar
+        locale={locale}
+        onLocaleChange={handleLocaleChange}
+        filter={filter}
+        onFilterChange={handleFilterChange}
+      />
       <TabContext value={selectedTab}>
         <Box position="sticky" top={0} sx={{ backgroundColor: "white", zIndex: 9 }}>
           <Toolbar variant="dense" />
@@ -48,7 +68,7 @@ function App() {
           </Paper>
         </Box>
         <TabPanel value="1" sx={{ padding: 0 }}>
-          <Resume locale={locale} />
+          <Resume locale={locale} filter={filterList} />
         </TabPanel>
         <TabPanel value="2" sx={{ padding: 0 }}>
           <Portfolio locale={locale} />
