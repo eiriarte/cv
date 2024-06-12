@@ -1,4 +1,216 @@
 {
+  "en": {
+    "strings": {
+      "work": "Experience",
+      "volunteer": "Volunteer",
+      "education": "Education",
+      "awards": "Awards",
+      "certificates": "Certificates",
+      "publications": "Publications",
+      "skills": "Skills",
+      "languages": "Languages",
+      "interests": "Interests",
+      "references": "References",
+      "projects": "Projects",
+      "imageAlt": "My photo",
+      "score": "Score",
+      "level": "Level",
+      "contact": "Personal data",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "externalLink": "External link",
+      "present": "Present",
+      "collapse": "Collapse section",
+      "expand": "Expand section"
+    },
+    "resume": {
+      "basics": {
+        "name": "Eduardo Iriarte Gahete",
+        "label": "Full-stack engineer • 15+ years of experience",
+        "email": "eiriarte@gmail.com",
+        "image": "/images/devs.png",
+        "url": "https://entrellaves.com",
+        "summary": "Extensive knowledge of JavaScript, CSS and popular frontend frameworks. Experienced in advanced backend technologies including containerization, microservices, SQL and NoSQL databases, cloud services and RESTful APIs. Dedicated to enhancing user experience by creating responsive, accessible and performant applications. Commited to best practices, delivering clean, maintainable and well-tested code. I adhere to the principle that \"Programs must be written for people to read, and only incidentally for machines to execute\".",
+        "location": {
+          "city": "Seville",
+          "countryCode": "ES"
+        },
+        "profiles": [
+          {
+            "network": "Github",
+            "url": "https://github.com/eiriarte"
+          },
+          {
+            "network": "Stack Overflow",
+            "url": "https://stackoverflow.com/users/1637846/eduardo-iriarte-gahete?tab=profile"
+          }
+        ]
+      },
+      "work": [
+        {
+          "name": "Aareon AG",
+          "position": "Senior backend engineer",
+          "url": "https://www.aareon.com/",
+          "startDate": "2019",
+          "endDate": "2024",
+          "summary": "Worked in a international, English-speaking team to create a robust cloud-based multitenant platform tailored for the property industry.",
+          "highlights": [
+            "Developed dockerized RESTful microservices with PHP/Symphony, MySQL and Redis, with a Domain-Driven Design (DDD) for enhanced maintainability.",
+            "Designed and implemented messaging solutions with RabbitMQ, thus avoiding bottlenecks and ensuring seamless data flow.",
+            "Proposed and developed a Node.js boilerplate tool, significantly boosting team productivity by streamlining development processes.",
+            "Contributed to the creation of Gitlab CI/CD workflows, automating quality assurance, code testing and deployment processes for faster and more reliable releases.",
+            "Conducted code reviews and provided mentorship to junior developers, improving overall code quality."
+          ],
+          "keywords": ["B"]
+        },
+        {
+          "name": "Ayesa Advanced Technologies",
+          "position": "Full-stack engineer",
+          "url": "https://www.ayesa.com/",
+          "startDate": "2004",
+          "endDate": "2012",
+          "summary": "Developed and maintained web applications for public sector clients, including the Andalusian Health Service.",
+          "highlights": [
+            "Developed public sector websites using ASP with SQL Server, and PHP with Oracle.",
+            "Implemented critical backend processes using Oracle PL/SQL, optimizing data management and system performance.",
+            "Maintained user interfaces with Javacript/jQuery and CSS.",
+            "Designed and developed desktop solutions using Delphi, Oracle and SOAP."
+          ],
+          "keywords": ["B", "F"]
+        },
+        {
+          "name": "Arión Grupo BAS Software Factory",
+          "position": "Full-stack engineer",
+          "url": "https://www.zucchetti.es/notas-de-prensa/zucchetti-spain-adquiere-el-100-del-fabricante-arion.html",
+          "startDate": "2000",
+          "endDate": "2003",
+          "summary": "Pioneered the adoption of modern web technologies to create a web-enabled version of ERP software.",
+          "highlights": [
+            "Created dynamic frontends leveraging early browser technologies such as DOM, XML/XSLT and XMLHttpRequest (AJAX).",
+            "Built a robust backend layer with ASP and ActiveX components.",
+            "Proposed, developed and integrated a Java applet to extend brower capabilities with features not natively supported at the time.",
+            "Programmed a crucial Windows service with Visual C++."
+          ],
+          "keywords": ["B", "F"]
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Seville",
+          "url": "https://www.us.es/",
+          "area": "Undergraduate research assistant in AI",
+          "startDate": "1997",
+          "endDate": "1998",
+          "keywords": ["AI"],
+          "courses": ["Assembly sequence optimisation with C++ using genetic algorithms"]
+        },
+        {
+          "institution": "University of Seville",
+          "url": "https://www.us.es/",
+          "area": "Computer science and engineering",
+          "startDate": "1993",
+          "endDate": "1999",
+          "keywords": ["CS"],
+          "courses": ["214/336 course credits completed"]
+        }
+      ],
+      "certificates": [
+        {
+          "name": "IBM Full Stack Software Developer",
+          "date": "2024",
+          "issuer": "IBM Skills Network",
+          "keywords": ["B", "F"],
+          "url": "https://coursera.org/verify/professional-cert/Z2RAM7EELRB7"
+        },
+        {
+          "name": "Aptis ESOL Advanced English Level: C1",
+          "date": "2022",
+          "issuer": "British Council",
+          "keywords": ["languages"],
+          "url": "/certs/English_C1_APTIS_ESOL.pdf"
+        },
+        {
+          "name": "M102: MongoDB for DBAs",
+          "date": "2014",
+          "issuer": "MongoDB, Inc.",
+          "keywords": ["B"],
+          "url": "/certs/cert_mongodb_M102.pdf"
+        },
+        {
+          "name": "M101JS: MongoDB for Node.js Developers",
+          "date": "2013",
+          "issuer": "MongoDB, Inc.",
+          "keywords": ["B"],
+          "url": "/certs/cert_mongodb_M101JS.pdf"
+        },
+        {
+          "name": "PHP Programming",
+          "date": "2007",
+          "issuer": "Eticom",
+          "keywords": ["B"],
+          "url": "/certs/cert_eticom_php.jpeg"
+        },
+        {
+          "name": "AJAX: The New Web Development Technique",
+          "date": "2007",
+          "issuer": "Eticom",
+          "keywords": ["F"],
+          "url": "/certs/cert_eticom_ajax.jpeg"
+        },
+        {
+          "name": "Introduction to Java Programming",
+          "date": "2006",
+          "issuer": "Adams Academy",
+          "keywords": ["B"],
+          "url": "/certs/cert_adams_java.jpeg"
+        },
+        {
+          "name": "Java Programming",
+          "date": "2005",
+          "issuer": "CEA",
+          "keywords": ["B"],
+          "url": "/certs/cert_cea_java.jpeg"
+        },
+        {
+          "name": "Oracle Database 9i Administrator",
+          "date": "2002",
+          "issuer": "CEA",
+          "keywords": ["B"],
+          "url": "/certs/cert_cea_oracle.jpeg"
+        }
+      ],
+      "skills": [
+        {
+          "name": "PHP",
+          "level": "100",
+          "keywords": ["B"]
+        },
+        {
+          "name": "JavaScript",
+          "level": "100",
+          "keywords": ["F", "B"]
+        },
+        {
+          "name": "CSS",
+          "level": "100",
+          "keywords": ["F"]
+        }
+      ],
+      "languages": [
+        {
+          "language": "Spanish",
+          "fluency": "100",
+          "keywords": ["languages"]
+        },
+        {
+          "language": "English",
+          "fluency": "88",
+          "keywords": ["languages"]
+        }
+      ]
+    }
+  },
   "es": {
     "strings": {
       "work": "Experiencia",
@@ -165,178 +377,6 @@
         },
         {
           "language": "Latín",
-          "fluency": "70",
-          "keywords": ["languages"]
-        }
-      ]
-    }
-  },
-  "en": {
-    "strings": {
-      "work": "Experience",
-      "volunteer": "Volunteer",
-      "education": "Education",
-      "awards": "Awards",
-      "certificates": "Certificates",
-      "publications": "Publications",
-      "skills": "Skills",
-      "languages": "Languages",
-      "interests": "Interests",
-      "references": "References",
-      "projects": "Projects",
-      "imageAlt": "My photo",
-      "score": "Score",
-      "level": "Level",
-      "contact": "Contact information",
-      "address": "Address",
-      "phone": "Phone",
-      "email": "Email",
-      "externalLink": "External link",
-      "present": "Present",
-      "collapse": "Collapse section",
-      "expand": "Expand section"
-    },
-    "resume": {
-      "basics": {
-        "name": "Eduardo Iriarte Gahete",
-        "label": "Full-stack engineer • 15+ years of experience",
-        "email": "maryshelley@literature.com",
-        "image": "/images/devs.png",
-        "url": "http://shelleygodwinarchive.org/",
-        "summary": "I'm a novelist best known for my Gothic novel 'Frankenstein'. I also authored several other works, including historical novels, poems, travel books, and biographies.",
-        "location": {
-          "address": "24 Chester Square",
-          "postalCode": "SW1W 9DS",
-          "city": "London",
-          "countryCode": "GB",
-          "region": "England"
-        },
-        "profiles": [
-          {
-            "network": "Twitter",
-            "username": "M_Shelley_OFB",
-            "url": "https://twitter.com/M_Shelley_OFB"
-          }
-        ]
-      },
-      "work": [
-        {
-          "name": "Freelance Writer",
-          "position": "Author",
-          "url": "https://www.gutenberg.org/ebooks/author/61",
-          "startDate": "1816",
-          "endDate": "1851",
-          "summary": "Authored several novels, short stories, poems, biographies, and travel narratives. Best known for the novel 'Frankenstein'.",
-          "highlights": [
-            "Published 'Frankenstein' in 1818",
-            "Published 'The Last Man' in 1826",
-            "Published 'The Fortunes of Perkin Warbeck' in 1830"
-          ],
-          "keywords": ["fiction", "nonfiction"]
-        }
-      ],
-      "education": [
-        {
-          "institution": "Self-Educated",
-          "area": "Literature, Philosophy, History",
-          "studyType": "Informal Education",
-          "startDate": "1815",
-          "endDate": "1820",
-          "score": "",
-          "keywords": ["fiction", "nonfiction"],
-          "courses": [
-            "Extensive reading of classical literature and contemporary works.",
-            "Studied the works of philosophers such as John Locke and Jean-Jacques Rousseau.",
-            "Learned French, Italian and some Spanish.",
-            "Learned Greek and Latin."
-          ]
-        },
-        {
-          "institution": "Homeschooling",
-          "url": "https://www.britannica.com/topic/homeschooling",
-          "area": "Basic literacy",
-          "studyType": "Informal Education",
-          "startDate": "1800",
-          "endDate": "1815",
-          "score": "",
-          "keywords": ["fiction"],
-          "courses": ["Learned to read an write.", "Extensive literary reading."]
-        }
-      ],
-      "certificates": [
-        {
-          "name": "Marriage Certificate",
-          "date": "1816-12-30",
-          "issuer": "St. Mildred's Church, London",
-          "keywords": ["matrimonial"],
-          "url": ""
-        }
-      ],
-      "skills": [
-        {
-          "name": "Sci-fi",
-          "level": "100",
-          "keywords": ["fiction"]
-        },
-        {
-          "name": "Horror",
-          "level": "100",
-          "keywords": ["fiction"]
-        },
-        {
-          "name": "Historical",
-          "level": "90",
-          "keywords": ["nonfiction"]
-        },
-        {
-          "name": "Poetry",
-          "level": "100",
-          "keywords": ["fiction", "nonfiction"]
-        },
-        {
-          "name": "Travelogue",
-          "level": "90",
-          "keywords": ["nonfiction"]
-        },
-        {
-          "name": "Translation",
-          "level": "80",
-          "keywords": ["languages"]
-        },
-        {
-          "name": "Biography",
-          "level": "80",
-          "keywords": ["nonfiction"]
-        }
-      ],
-      "languages": [
-        {
-          "language": "English",
-          "fluency": "100",
-          "keywords": ["languages"]
-        },
-        {
-          "language": "Italian",
-          "fluency": "85",
-          "keywords": ["languages"]
-        },
-        {
-          "language": "French",
-          "fluency": "85",
-          "keywords": ["languages"]
-        },
-        {
-          "language": "Spanish",
-          "fluency": "70",
-          "keywords": ["languages"]
-        },
-        {
-          "language": "Greek",
-          "fluency": "70",
-          "keywords": ["languages"]
-        },
-        {
-          "language": "Latin",
           "fluency": "70",
           "keywords": ["languages"]
         }
