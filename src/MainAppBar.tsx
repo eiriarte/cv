@@ -1,3 +1,4 @@
+/// <reference types="vite-plugin-svgr/client" />
 import EsFlag from "./assets/es.svg?react";
 import EnFlag from "./assets/uk.svg?react";
 import FilterListIcon from "@mui/icons-material/FilterList";
