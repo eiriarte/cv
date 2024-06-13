@@ -56,9 +56,6 @@ function Portfolio({ locale, filter }: { locale: string; filter: FilterOption[] 
                   <Typography variant="h5" component="h3">
                     {work.title}
                   </Typography>
-                  <Typography sx={{ mb: 1.5 }} variant="subtitle1" color="text.secondary">
-                    {work.position}
-                  </Typography>
                   <Typography sx={{ mb: 2 }} variant="body2" color="text.secondary">
                     {work.description}
                   </Typography>
