@@ -10,21 +10,6 @@ import { Box, Paper, Tab, Toolbar, useMediaQuery, useTheme } from "@mui/material
 import { useState } from "react";
 
 function App() {
-  // TODO: Desktop/curricumlum.txt: pegar los "skills" en hoja de cálculo y añadir puntuaciones
-  // TODO: Desktop/curricumlum.txt: pegar los "skills" en hoja de cálculo y añadir puntuaciones
-  // TODO: Desktop/curricumlum.txt: pegar los "skills" en hoja de cálculo y añadir puntuaciones
-  // TODO: Desktop/curricumlum.txt: pegar los "skills" en hoja de cálculo y añadir puntuaciones
-  // TODO: Desktop/curricumlum.txt: pegar los "skills" en hoja de cálculo y añadir puntuaciones
-  // TODO: meter y mis datos: incluir cv.entrellaves.com y I18NResume (con competencia "TypeScript")
-  // TODO: meter y mis datos: incluir cv.entrellaves.com y I18NResume (con competencia "TypeScript")
-  // TODO: meter y mis datos: incluir cv.entrellaves.com y I18NResume (con competencia "TypeScript")
-  // TODO: meter y mis datos: incluir cv.entrellaves.com y I18NResume (con competencia "TypeScript")
-  // TODO: desplegar en cv.entrellaves.com: probar en móvil
-  // TODO: desplegar en cv.entrellaves.com: probar en móvil
-  // TODO: desplegar en cv.entrellaves.com: probar en móvil
-  // TODO: publicar versión v1.0.0 de I18Resume: con todos los test
-  // TODO: publicar versión v1.0.0 de I18Resume: con todos los test
-  // TODO: publicar versión v1.0.0 de I18Resume: con todos los test
   const theme = useTheme();
   const [locale, setLocale] = useState<"en" | "es">("en");
   const [filter, setFilter] = useState<FilterOption>("all");

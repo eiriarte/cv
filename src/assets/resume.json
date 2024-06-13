@@ -54,7 +54,7 @@
           "url": "https://www.aareon.com/",
           "startDate": "2019",
           "endDate": "2024",
-          "summary": "Worked in a international, English-speaking team to create a robust cloud-based multitenant platform tailored for the property industry.",
+          "summary": "Worked in a international, English-speaking team to create a cloud-based multitenant platform tailored for the property industry.",
           "highlights": [
             "Developed dockerized RESTful microservices with PHP/Symphony, MySQL and Redis, with a Domain-Driven Design (DDD) for enhanced maintainability.",
             "Designed and implemented messaging solutions with RabbitMQ, thus avoiding bottlenecks and ensuring seamless data flow.",
@@ -67,12 +67,12 @@
         {
           "name": "Ayesa Advanced Technologies",
           "position": "Full-stack engineer",
-          "url": "https://www.ayesa.com/",
+          "url": "https://www.ayesa.com/en",
           "startDate": "2004",
           "endDate": "2012",
           "summary": "Developed and maintained web applications for public sector clients, including the Andalusian Health Service.",
           "highlights": [
-            "Developed public sector websites using ASP with SQL Server, and PHP with Oracle.",
+            "Developed websites using ASP with SQL Server, and PHP with Oracle.",
             "Implemented critical backend processes using Oracle PL/SQL, optimizing data management and system performance.",
             "Maintained user interfaces with Javacript/jQuery and CSS.",
             "Designed and developed desktop solutions using Delphi, Oracle and SOAP."
@@ -85,10 +85,10 @@
           "url": "https://www.zucchetti.es/notas-de-prensa/zucchetti-spain-adquiere-el-100-del-fabricante-arion.html",
           "startDate": "2000",
           "endDate": "2003",
-          "summary": "Pioneered the adoption of modern web technologies to create a web-enabled version of ERP software.",
+          "summary": "Pioneered the adoption of modern web technologies to create a web-enabled version of our ERP software.",
           "highlights": [
-            "Created dynamic frontends leveraging early browser technologies such as DOM, XML/XSLT and XMLHttpRequest (AJAX).",
-            "Built a robust backend layer with ASP and ActiveX components.",
+            "Created dynamic frontends leveraging early browser technologies such as DOM Level 2, XML/XSLT and XMLHttpRequest (AJAX).",
+            "Built a backend layer with ASP and ActiveX components.",
             "Proposed, developed and integrated a Java applet to extend brower capabilities with features not natively supported at the time.",
             "Programmed a crucial Windows service with Visual C++."
           ],
@@ -181,21 +181,31 @@
         }
       ],
       "skills": [
-        {
-          "name": "PHP",
-          "level": "100",
-          "keywords": ["B"]
-        },
-        {
-          "name": "JavaScript",
-          "level": "100",
-          "keywords": ["F", "B"]
-        },
-        {
-          "name": "CSS",
-          "level": "100",
-          "keywords": ["F"]
-        }
+        { "name": "HTML5", "level": "100", "keywords": ["F"] },
+        { "name": "JavaScript", "level": "100", "keywords": ["F", "B"] },
+        { "name": "TypeScript", "level": "65", "keywords": ["F", "B"] },
+        { "name": "React", "level": "50", "keywords": ["F", "B"] },
+        { "name": "AngularJS", "level": "40", "keywords": ["F"] },
+        { "name": "CSS", "level": "100", "keywords": ["F"] },
+        { "name": "TailWind CSS", "level": "50", "keywords": ["F"] },
+        { "name": "Bootstrap", "level": "50", "keywords": ["F"] },
+        { "name": "Sass", "level": "40", "keywords": ["F"] },
+        { "name": "Material UI", "level": "30", "keywords": ["F"] },
+        { "name": "PHP", "level": "100", "keywords": ["B"] },
+        { "name": "Symfony", "level": "85", "keywords": ["B"] },
+        { "name": "Node.js", "level": "100", "keywords": ["B"] },
+        { "name": "Express", "level": "70", "keywords": ["B"] },
+        { "name": "Python", "level": "40", "keywords": ["B"] },
+        { "name": "Django", "level": "30", "keywords": ["B"] },
+        { "name": "SQL", "level": "100", "keywords": ["B"] },
+        { "name": "MySQL", "level": "100", "keywords": ["B"] },
+        { "name": "MongoDB", "level": "40", "keywords": ["B"] },
+        { "name": "Redis", "level": "60", "keywords": ["B"] },
+        { "name": "RabbitMQ", "level": "51", "keywords": ["B"] },
+        { "name": "Oracle", "level": "50", "keywords": ["B"] },
+        { "name": "Openshift", "level": "65", "keywords": ["B"] },
+        { "name": "AWS", "level": "40", "keywords": ["B"] },
+        { "name": "Docker", "level": "85", "keywords": ["F", "B"] }
       ],
       "languages": [
         {
@@ -240,144 +250,196 @@
       "basics": {
         "name": "Eduardo Iriarte Gahete",
         "label": "Desarrollador full-stack • 15+ años de experiencia",
-        "email": "maryshelley@literature.com",
+        "email": "eiriarte@gmail.com",
         "image": "/images/devs.png",
-        "url": "http://shelleygodwinarchive.org/",
-        "summary": "Novelista inglesa conocida por la novela gótica «Frankenstein». También he escrito muchas otras obras, incluyendo novelas históricas, poesía, libros de viajes y biografías.",
+        "url": "https://entrellaves.com",
+        "summary": "Amplios conocimientos de JavaScript, CSS e importantes frameworks de frontend. Experiencia con tecnologías backend modernas como contenedores, microservicios, bases de datos SQL y no NoSQL, servicios de nube y API RESTful. Mi prioridad es mejorar la experiencia de usuario con aplicaciones responsivas, accessibles y eficientes. Comprometido con el uso de las mejores prácticas para producir código estable, limpio y mantenible. Suscribo el principio de que «Los programas deben escribirse para que los lean personas, más que para que las máquinas los ejecuten».",
         "location": {
-          "address": "24 Chester Square",
-          "postalCode": "SW1W 9DS",
-          "city": "Londres",
-          "countryCode": "GB",
-          "region": "Inglaterra"
+          "city": "Seville",
+          "countryCode": "ES"
         },
         "profiles": [
           {
-            "network": "Twitter",
-            "username": "M_Shelley_OFB",
-            "url": "https://twitter.com/M_Shelley_OFB"
+            "network": "Github",
+            "url": "https://github.com/eiriarte"
+          },
+          {
+            "network": "Stack Overflow",
+            "url": "https://stackoverflow.com/users/1637846/eduardo-iriarte-gahete?tab=profile"
           }
         ]
       },
       "work": [
         {
-          "name": "Escritora Independiente",
-          "position": "Autora",
-          "url": "https://www.gutenberg.org/ebooks/author/61",
-          "startDate": "1816",
-          "endDate": "1851",
-          "summary": "Autora de varias novelas, cuentos, poemas, biografías y narrativas de viajes. Más conocida por mi novela 'Frankenstein'.",
-          "keywords": ["fiction", "nonfiction"],
+          "name": "Aareon AG",
+          "position": "Desarrollador backend sénior",
+          "url": "https://www.aareon.com/",
+          "startDate": "2019",
+          "endDate": "2024",
+          "summary": "Como parte de un equipo international angloparlante, centrado en la creación de una plataforma en la nube para soluciones de la industria inmobiliaria:",
           "highlights": [
-            "Publiqué 'Frankenstein' en 1818",
-            "Publiqué 'El último hombre' en 1826",
-            "Publiqué 'Las fortunas de Perkin Warbeck' en 1830"
-          ]
+            "Desarrollo de microservicios RESTful dockerizados con PHP/Symfony, MySQL y Redis, con Diseño Orientado al Dominio (DDD) para una mayor mantenibilidad.",
+            "Diseño e implementación de soluciones de encaminación de mensajes con RabbitMQ para evitar cuellos de botella y asegurar un flujo de datos sin interrupciones.",
+            "Propuesta y desarrollo de un sistema de plantillas en Node.js, que aumentó significativamente la productividad del equipo, agilizando los procesos de desarrollo.",
+            "Partipación en la creación de automatizaciones CI/CD con Gitlab, automatizando el control de calidad (QA), las pruebas del código y el despligue, para lanzamientos más rápidos y confiables.",
+            "Revisiones de código y mentoría de desarrolladores júnior, consiguiendo mejoras en la calidad global del código."
+          ],
+          "keywords": ["B"]
+        },
+        {
+          "name": "Ayesa Advanced Technologies",
+          "position": "Desarrollador full-stack",
+          "url": "https://www.ayesa.com/",
+          "startDate": "2004",
+          "endDate": "2012",
+          "summary": "Desarrollo y mantenimiento de aplicaciones web para el sector público, como el Servicio Andaluz de Salud.",
+          "highlights": [
+            "Desarrollo de sitios web usando PHP con Oracle, y ASP con SQL Server.",
+            "Implementación de procesos backend críticos con Oracle PL/SQL, para optimizar el procesamiento de los datos y el desempeño del sistema.",
+            "Mantenimiento de interfaces de usuario con Javacript/jQuery y CSS.",
+            "Diseño y desarrollo de soluciones de escritorio con Delphi, Oracle y SOAP."
+          ],
+          "keywords": ["B", "F"]
+        },
+        {
+          "name": "Arión Grupo BAS Software Factory",
+          "position": "Desarrollador full-stack",
+          "url": "https://www.zucchetti.es/notas-de-prensa/zucchetti-spain-adquiere-el-100-del-fabricante-arion.html",
+          "startDate": "2000",
+          "endDate": "2003",
+          "summary": "Pioneros en la adopción de tecnologías web modernas para la creación una versión «web-enabled» de nuestro software ERP.",
+          "highlights": [
+            "Creación de frontends dinámicos explotando tecnologías web del momento como DOM Level 2, XML/XSLT y XMLHttpRequest (AJAX).",
+            "Desarrollo del backend con ASP y componentes ActiveX.",
+            "Propuesta, desarrollo e integración de un applet de Java para aumentar las capacidades del navegador con funcionalidades aún no ofrecidas nativamente.",
+            "Programación de un servicio crítico de Windows con Visual C++."
+          ],
+          "keywords": ["B", "F"]
         }
       ],
       "education": [
         {
-          "institution": "Autodidacta",
-          "area": "Literatura, Filosofía, Historia",
-          "studyType": "Educación Informal",
-          "startDate": "1815",
-          "endDate": "1820",
-          "score": "",
-          "keywords": ["fiction", "nonfiction"],
+          "institution": "Universidad de Sevilla",
+          "url": "https://www.us.es/",
+          "area": "Alumno interno para investigación en IA",
+          "startDate": "1997",
+          "endDate": "1998",
+          "keywords": ["AI"],
           "courses": [
-            "Lectura extensiva de literatura clásica y obras contemporáneas",
-            "Estudié obras de filósofos como John Locke y Jean-Jacques Rousseau",
-            "Aprendí francés, italiano y algo de español.",
-            "Aprendí griego y latín."
+            "Optimización de secuencias de montaje industrial con C++ usando algoritmos genéticos"
           ]
         },
         {
-          "institution": "Hogar paterno",
-          "url": "https://www.britannica.com/topic/homeschooling",
-          "area": "Alfabetización básica",
-          "studyType": "Informal Education",
-          "startDate": "1800",
-          "endDate": "1815",
-          "score": "",
-          "keywords": ["fiction"],
-          "courses": ["Aprendí a leer y a escribir.", "Amplias lecturas literarias."]
+          "institution": "Universidad de Sevilla",
+          "url": "https://www.us.es/",
+          "area": "Ingeniero en informática",
+          "startDate": "1993",
+          "endDate": "1999",
+          "keywords": ["CS"],
+          "courses": ["214/336 créditos superados"]
         }
       ],
       "certificates": [
         {
-          "name": "Certificado de Matrimonio",
-          "date": "1816-12-30",
-          "issuer": "Iglesia de St. Mildred, Londres",
-          "keywords": ["matrimonial"],
-          "url": ""
+          "name": "IBM Full Stack Software Developer",
+          "date": "2024",
+          "issuer": "IBM Skills Network",
+          "keywords": ["B", "F"],
+          "url": "https://coursera.org/verify/professional-cert/Z2RAM7EELRB7"
+        },
+        {
+          "name": "Inglés avanzado (C1) Aptis ESOL",
+          "date": "2022",
+          "issuer": "British Council",
+          "keywords": ["languages"],
+          "url": "/certs/English_C1_APTIS_ESOL.pdf"
+        },
+        {
+          "name": "M102: MongoDB for DBAs",
+          "date": "2014",
+          "issuer": "MongoDB, Inc.",
+          "keywords": ["B"],
+          "url": "/certs/cert_mongodb_M102.pdf"
+        },
+        {
+          "name": "M101JS: MongoDB for Node.js Developers",
+          "date": "2013",
+          "issuer": "MongoDB, Inc.",
+          "keywords": ["B"],
+          "url": "/certs/cert_mongodb_M101JS.pdf"
+        },
+        {
+          "name": "Programación con PHP",
+          "date": "2007",
+          "issuer": "Eticom",
+          "keywords": ["B"],
+          "url": "/certs/cert_eticom_php.jpeg"
+        },
+        {
+          "name": "AJAX: La nueva técnica de desarrollo web",
+          "date": "2007",
+          "issuer": "Eticom",
+          "keywords": ["F"],
+          "url": "/certs/cert_eticom_ajax.jpeg"
+        },
+        {
+          "name": "Introducción a la programación en Java",
+          "date": "2006",
+          "issuer": "Adams Academy",
+          "keywords": ["B"],
+          "url": "/certs/cert_adams_java.jpeg"
+        },
+        {
+          "name": "Programación Java",
+          "date": "2005",
+          "issuer": "CEA",
+          "keywords": ["B"],
+          "url": "/certs/cert_cea_java.jpeg"
+        },
+        {
+          "name": "Gestión de Base de Datos con Oracle 9i",
+          "date": "2002",
+          "issuer": "CEA",
+          "keywords": ["B"],
+          "url": "/certs/cert_cea_oracle.jpeg"
         }
       ],
       "skills": [
-        {
-          "name": "Ciencia ficción",
-          "level": "100",
-          "keywords": ["fiction"]
-        },
-        {
-          "name": "Terror",
-          "level": "100",
-          "keywords": ["fiction"]
-        },
-        {
-          "name": "Histórica",
-          "level": "90",
-          "keywords": ["nonfiction"]
-        },
-        {
-          "name": "Poesía",
-          "level": "100",
-          "keywords": ["fiction", "nonfiction"]
-        },
-        {
-          "name": "Lit. viajes",
-          "level": "90",
-          "keywords": ["nonfiction"]
-        },
-        {
-          "name": "Traducción",
-          "level": "80",
-          "keywords": ["languages"]
-        },
-        {
-          "name": "Biografía",
-          "level": "80",
-          "keywords": ["nonfiction"]
-        }
+        { "name": "HTML5", "level": "100", "keywords": ["F"] },
+        { "name": "JavaScript", "level": "100", "keywords": ["F", "B"] },
+        { "name": "TypeScript", "level": "65", "keywords": ["F", "B"] },
+        { "name": "React", "level": "50", "keywords": ["F", "B"] },
+        { "name": "AngularJS", "level": "40", "keywords": ["F"] },
+        { "name": "CSS", "level": "100", "keywords": ["F"] },
+        { "name": "TailWind CSS", "level": "50", "keywords": ["F"] },
+        { "name": "Bootstrap", "level": "50", "keywords": ["F"] },
+        { "name": "Sass", "level": "40", "keywords": ["F"] },
+        { "name": "Material UI", "level": "30", "keywords": ["F"] },
+        { "name": "PHP", "level": "100", "keywords": ["B"] },
+        { "name": "Symfony", "level": "85", "keywords": ["B"] },
+        { "name": "Node.js", "level": "100", "keywords": ["B"] },
+        { "name": "Express", "level": "70", "keywords": ["B"] },
+        { "name": "Python", "level": "40", "keywords": ["B"] },
+        { "name": "Django", "level": "30", "keywords": ["B"] },
+        { "name": "SQL", "level": "100", "keywords": ["B"] },
+        { "name": "MySQL", "level": "100", "keywords": ["B"] },
+        { "name": "MongoDB", "level": "40", "keywords": ["B"] },
+        { "name": "Redis", "level": "60", "keywords": ["B"] },
+        { "name": "RabbitMQ", "level": "51", "keywords": ["B"] },
+        { "name": "Oracle", "level": "50", "keywords": ["B"] },
+        { "name": "Openshift", "level": "65", "keywords": ["B"] },
+        { "name": "AWS", "level": "40", "keywords": ["B"] },
+        { "name": "Docker", "level": "85", "keywords": ["F", "B"] }
       ],
       "languages": [
         {
-          "language": "Inglés",
+          "language": "Español",
           "fluency": "100",
           "keywords": ["languages"]
         },
         {
-          "language": "Italiano",
-          "fluency": "85",
-          "keywords": ["languages"]
-        },
-        {
-          "language": "Francés",
-          "fluency": "85",
-          "keywords": ["languages"]
-        },
-        {
-          "language": "Español",
-          "fluency": "70",
-          "keywords": ["languages"]
-        },
-        {
-          "language": "Griego",
-          "fluency": "70",
-          "keywords": ["languages"]
-        },
-        {
-          "language": "Latín",
-          "fluency": "70",
+          "language": "Inglés",
+          "fluency": "88",
           "keywords": ["languages"]
         }
       ]
