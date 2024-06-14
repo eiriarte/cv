@@ -56,7 +56,7 @@
           "endDate": "2024",
           "summary": "Worked in a international, English-speaking team to create a cloud-based multitenant platform tailored for the property industry.",
           "highlights": [
-            "Developed dockerized RESTful microservices with PHP/Symphony, MySQL and Redis, with a Domain-Driven Design (DDD) for enhanced maintainability.",
+            "Developed scalable dockerized RESTful microservices with PHP/Symphony, MySQL and Redis, with a Domain-Driven Design (DDD) for enhanced maintainability.",
             "Designed and implemented messaging solutions with RabbitMQ, thus avoiding bottlenecks and ensuring seamless data flow.",
             "Proposed and developed a Node.js boilerplate tool, significantly boosting team productivity by streamlining development processes.",
             "Contributed to the creation of Gitlab CI/CD workflows, automating quality assurance, code testing and deployment processes for faster and more reliable releases.",
@@ -72,7 +72,7 @@
           "endDate": "2012",
           "summary": "Developed and maintained web applications for public sector clients, including the Andalusian Health Service.",
           "highlights": [
-            "Developed websites using ASP with SQL Server, and PHP with Oracle.",
+            "Developed high-traffic websites using ASP with SQL Server, and PHP with Oracle.",
             "Implemented critical backend processes using Oracle PL/SQL, optimizing data management and system performance.",
             "Maintained user interfaces with Javacript/jQuery and CSS.",
             "Designed and developed desktop solutions using Delphi, Oracle and SOAP."
@@ -278,7 +278,7 @@
           "endDate": "2024",
           "summary": "Como parte de un equipo international angloparlante, centrado en la creación de una plataforma en la nube para soluciones de la industria inmobiliaria:",
           "highlights": [
-            "Desarrollo de microservicios RESTful dockerizados con PHP/Symfony, MySQL y Redis, con Diseño Orientado al Dominio (DDD) para una mayor mantenibilidad.",
+            "Desarrollo de microservicios RESTful dockerizados escalables con PHP/Symfony, MySQL y Redis, con Diseño Orientado al Dominio (DDD) para una mayor mantenibilidad.",
             "Diseño e implementación de soluciones de encaminación de mensajes con RabbitMQ para evitar cuellos de botella y asegurar un flujo de datos sin interrupciones.",
             "Propuesta y desarrollo de un sistema de plantillas en Node.js, que aumentó significativamente la productividad del equipo, agilizando los procesos de desarrollo.",
             "Partipación en la creación de automatizaciones CI/CD con Gitlab, automatizando el control de calidad (QA), las pruebas del código y el despligue, para lanzamientos más rápidos y confiables.",
@@ -294,7 +294,7 @@
           "endDate": "2012",
           "summary": "Desarrollo y mantenimiento de aplicaciones web para el sector público, como el Servicio Andaluz de Salud.",
           "highlights": [
-            "Desarrollo de sitios web usando PHP con Oracle, y ASP con SQL Server.",
+            "Desarrollo de sitios web de alto tráfico usando PHP con Oracle, y ASP con SQL Server.",
             "Implementación de procesos backend críticos con Oracle PL/SQL, para optimizar el procesamiento de los datos y el desempeño del sistema.",
             "Mantenimiento de interfaces de usuario con Javacript/jQuery y CSS.",
             "Diseño y desarrollo de soluciones de escritorio con Delphi, Oracle y SOAP."
