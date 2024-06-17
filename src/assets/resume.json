@@ -39,6 +39,10 @@
         },
         "profiles": [
           {
+            "network": "LinkedIn",
+            "url": "https://www.linkedin.com/in/eduardo-iriarte-gahete-9629161b"
+          },
+          {
             "network": "Github",
             "url": "https://github.com/eiriarte"
           },
@@ -53,8 +57,8 @@
           "name": "Aareon AG",
           "position": "Senior backend engineer",
           "url": "https://www.aareon.com/",
-          "startDate": "2019",
-          "endDate": "2024",
+          "startDate": "2019-07",
+          "endDate": "2024-03",
           "summary": "Worked in a international, English-speaking team to create a cloud-based multitenant platform tailored for the property industry.",
           "highlights": [
             "Developed scalable dockerized RESTful microservices with PHP/Symphony, MySQL and Redis, with a Domain-Driven Design (DDD) for enhanced maintainability.",
@@ -69,8 +73,8 @@
           "name": "Ayesa Advanced Technologies",
           "position": "Full-stack engineer",
           "url": "https://www.ayesa.com/en",
-          "startDate": "2004",
-          "endDate": "2012",
+          "startDate": "2004-10",
+          "endDate": "2012-07",
           "summary": "Developed and maintained web applications for public sector clients, including the Andalusian Health Service.",
           "highlights": [
             "Developed high-traffic websites using ASP with SQL Server, and PHP with Oracle.",
@@ -84,8 +88,8 @@
           "name": "Arión Grupo BAS Software Factory",
           "position": "Full-stack engineer",
           "url": "https://www.zucchetti.es/notas-de-prensa/zucchetti-spain-adquiere-el-100-del-fabricante-arion.html",
-          "startDate": "2000",
-          "endDate": "2003",
+          "startDate": "2000-10",
+          "endDate": "2003-04",
           "summary": "Pioneered the adoption of modern web technologies to create a web-enabled version of our ERP software.",
           "highlights": [
             "Created dynamic frontends leveraging early browser technologies such as DOM Level 2, XML/XSLT and XMLHttpRequest (AJAX).",
@@ -262,6 +266,10 @@
         },
         "profiles": [
           {
+            "network": "LinkedIn",
+            "url": "https://www.linkedin.com/in/eduardo-iriarte-gahete-9629161b"
+          },
+          {
             "network": "Github",
             "url": "https://github.com/eiriarte"
           },
@@ -276,8 +284,8 @@
           "name": "Aareon AG",
           "position": "Desarrollador backend sénior",
           "url": "https://www.aareon.com/",
-          "startDate": "2019",
-          "endDate": "2024",
+          "startDate": "2019-07",
+          "endDate": "2024-03",
           "summary": "Como parte de un equipo international angloparlante, centrado en la creación de una plataforma en la nube para soluciones de la industria inmobiliaria:",
           "highlights": [
             "Desarrollo de microservicios RESTful dockerizados escalables con PHP/Symfony, MySQL y Redis, con Diseño Orientado al Dominio (DDD) para una mayor mantenibilidad.",
@@ -292,8 +300,8 @@
           "name": "Ayesa Advanced Technologies",
           "position": "Desarrollador full-stack",
           "url": "https://www.ayesa.com/",
-          "startDate": "2004",
-          "endDate": "2012",
+          "startDate": "2004-10",
+          "endDate": "2012-07",
           "summary": "Desarrollo y mantenimiento de aplicaciones web para el sector público, como el Servicio Andaluz de Salud.",
           "highlights": [
             "Desarrollo de sitios web de alto tráfico usando PHP con Oracle, y ASP con SQL Server.",
@@ -307,8 +315,8 @@
           "name": "Arión Grupo BAS Software Factory",
           "position": "Desarrollador full-stack",
           "url": "https://www.zucchetti.es/notas-de-prensa/zucchetti-spain-adquiere-el-100-del-fabricante-arion.html",
-          "startDate": "2000",
-          "endDate": "2003",
+          "startDate": "2000-10",
+          "endDate": "2003-04",
           "summary": "Pioneros en la adopción de tecnologías web modernas para la creación una versión «web-enabled» de nuestro software ERP.",
           "highlights": [
             "Creación de frontends dinámicos explotando tecnologías web del momento como DOM Level 2, XML/XSLT y XMLHttpRequest (AJAX).",
