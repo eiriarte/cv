@@ -27,7 +27,7 @@
     "resume": {
       "basics": {
         "name": "Eduardo Iriarte Gahete",
-        "label": "Full-stack engineer • 15+ years of experience",
+        "label": "Full Stack Engineer • 15+ years of experience",
         "phone": "+34 670 675 879",
         "email": "eiriarte@gmail.com",
         "image": "/images/devs.png",
@@ -104,20 +104,20 @@
         {
           "institution": "University of Seville",
           "url": "https://www.us.es/",
-          "area": "Undergraduate research assistant in AI",
-          "startDate": "1997",
-          "endDate": "1998",
-          "keywords": ["AI"],
-          "courses": ["Assembly sequence optimisation with C++ using genetic algorithms"]
-        },
-        {
-          "institution": "University of Seville",
-          "url": "https://www.us.es/",
           "area": "Computer science and engineering",
           "startDate": "1993",
           "endDate": "1999",
           "keywords": ["CS"],
           "courses": ["214/336 course credits completed"]
+        },
+        {
+          "institution": "University of Seville",
+          "url": "https://www.us.es/",
+          "area": "Undergraduate research assistant in AI",
+          "startDate": "1997",
+          "endDate": "1998",
+          "keywords": ["AI"],
+          "courses": ["Assembly sequence optimization with C++ using genetic algorithms"]
         }
       ],
       "certificates": [
@@ -331,6 +331,15 @@
         {
           "institution": "Universidad de Sevilla",
           "url": "https://www.us.es/",
+          "area": "Ingeniero en informática",
+          "startDate": "1993",
+          "endDate": "1999",
+          "keywords": ["CS"],
+          "courses": ["214/336 créditos superados"]
+        },
+        {
+          "institution": "Universidad de Sevilla",
+          "url": "https://www.us.es/",
           "area": "Alumno interno para investigación en IA",
           "startDate": "1997",
           "endDate": "1998",
@@ -338,15 +347,6 @@
           "courses": [
             "Optimización de secuencias de montaje industrial con C++ usando algoritmos genéticos"
           ]
-        },
-        {
-          "institution": "Universidad de Sevilla",
-          "url": "https://www.us.es/",
-          "area": "Ingeniero en informática",
-          "startDate": "1993",
-          "endDate": "1999",
-          "keywords": ["CS"],
-          "courses": ["214/336 créditos superados"]
         }
       ],
       "certificates": [

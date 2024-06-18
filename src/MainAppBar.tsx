@@ -33,7 +33,7 @@ function MainAppbar({
   onFilterChange: FilterChangeCallback;
 }) {
   const strings = {
-    title: { es: "Desarrollador full-stack", en: "Full-stack engineer" },
+    title: { es: "Desarrollador Full Stack", en: "Full Stack Engineer" },
     chooseLanguage: { es: "Elegir idioma", en: "Choose language" },
     spanish: { es: "Español", en: "Spanish" },
     english: { es: "Inglés", en: "English" },
