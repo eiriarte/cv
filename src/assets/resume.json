@@ -262,7 +262,7 @@
         "email": "eiriarte@gmail.com",
         "image": "/images/devs.png",
         "url": "https://entrellaves.com",
-        "summary": "Amplios conocimientos de JavaScript, CSS e importantes frameworks de frontend. Experiencia con tecnologías backend modernas como contenedores, microservicios, bases de datos SQL y no NoSQL, servicios de nube y API RESTful. Mi prioridad es mejorar la experiencia de usuario con aplicaciones responsivas, accessibles y eficientes. Comprometido con el uso de las mejores prácticas para producir código estable, limpio y mantenible. Suscribo el principio de que «Los programas deben escribirse para que los lean personas, más que para que las máquinas los ejecuten».",
+        "summary": "Amplios conocimientos de JavaScript, CSS e importantes frameworks de frontend. Experiencia con tecnologías backend modernas como contenedores, microservicios, bases de datos SQL y no NoSQL, servicios de nube y API RESTful. Mi prioridad es mejorar la experiencia de usuario con aplicaciones responsivas, accesibles y eficientes. Comprometido con el uso de las mejores prácticas para producir código estable, limpio y mantenible. Suscribo el principio de que «Los programas deben escribirse para que los lean personas, más que para que las máquinas los ejecuten».",
         "location": {
           "city": "Seville",
           "countryCode": "ES"
@@ -289,12 +289,12 @@
           "url": "https://www.aareon.com/",
           "startDate": "2019-07",
           "endDate": "2024-03",
-          "summary": "Como parte de un equipo international angloparlante, centrado en la creación de una plataforma en la nube para soluciones de la industria inmobiliaria:",
+          "summary": "Como parte de un equipo internacional angloparlante, centrado en la creación de una plataforma en la nube para soluciones de la industria inmobiliaria:",
           "highlights": [
             "Desarrollo de microservicios RESTful dockerizados escalables con PHP/Symfony, MySQL y Redis, con Diseño Orientado al Dominio (DDD) para una mayor mantenibilidad.",
             "Diseño e implementación de soluciones de encaminación de mensajes con RabbitMQ para evitar cuellos de botella y asegurar un flujo de datos sin interrupciones.",
             "Propuesta y desarrollo de un sistema de plantillas en Node.js, que aumentó significativamente la productividad del equipo, agilizando los procesos de desarrollo.",
-            "Partipación en la creación de automatizaciones CI/CD con Gitlab, automatizando el control de calidad (QA), las pruebas del código y el despligue, para lanzamientos más rápidos y confiables.",
+            "Participación en la creación de automatizaciones CI/CD con Gitlab, automatizando el control de calidad (QA), las pruebas del código y el despligue, para lanzamientos más rápidos y confiables.",
             "Revisiones de código y mentoría de desarrolladores júnior, consiguiendo mejoras en la calidad global del código."
           ],
           "keywords": ["B"]
