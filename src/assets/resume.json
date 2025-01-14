@@ -70,6 +70,14 @@
           "keywords": ["B"]
         },
         {
+          "name": "Self-employed",
+          "position": "Full Stack Engineer",
+          "startDate": "2012-07",
+          "endDate": "2019-07",
+          "summary": "Focused on building web and mobile applications using technologies like Node.js, React, React Native, and more. I managed the entire product development life cycle, from concept to launch, ensuring seamless user experiences and high-quality deliverables.",
+          "keywords": ["B", "F"]
+        },
+        {
           "name": "Ayesa Advanced Technologies",
           "position": "Full Stack Engineer",
           "url": "https://www.ayesa.com/en",
@@ -298,6 +306,14 @@
             "Revisiones de código y mentoría de desarrolladores júnior, consiguiendo mejoras en la calidad global del código."
           ],
           "keywords": ["B"]
+        },
+        {
+          "name": "Autoempleado",
+          "position": "Desarrollador Full Stack",
+          "startDate": "2012-07",
+          "endDate": "2019-07",
+          "summary": "Enfocado en desarrollo web y móvil con tecnologías como Node.js, React, React Native y otras. Gestión integral de los proyectos desde su concepción hasta el lanzamiento.",
+          "keywords": ["B", "F"]
         },
         {
           "name": "Ayesa Advanced Technologies",
