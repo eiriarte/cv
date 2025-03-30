@@ -54,6 +54,17 @@
       },
       "work": [
         {
+          "name": "Netex Knowledge Factory",
+          "position": "Senior Backend Engineer",
+          "url": "https://www.netexlearning.com/",
+          "startDate": "2025-02",
+          "summary": "Worked in a distributed team to create a cloud-based multitenant platform tailored for the education industry.",
+          "highlights": [
+            "Developed scalable dockerized RESTful microservices with PHP/Symphony, MySQL and MongoDB, with a Domain-Driven Design (DDD) for enhanced maintainability."
+          ],
+          "keywords": ["B"]
+        },
+        {
           "name": "Aareon AG",
           "position": "Senior Backend Engineer",
           "url": "https://www.aareon.com/",
@@ -291,6 +302,17 @@
         ]
       },
       "work": [
+        {
+          "name": "Netex Knowledge Factory",
+          "position": "Desarrollador Backend Senior",
+          "url": "https://www.netexlearning.com/",
+          "startDate": "2025-02",
+          "summary": "Como parte de un equipo distribuido, centrado en la creación de una plataforma en la nube para soluciones del sector educativo:",
+          "highlights": [
+            "Desarrollo de microservicios RESTful dockerizados escalables con PHP/Symfony, MySQL y MongoDB, con Diseño Orientado al Dominio (DDD) para una mayor mantenibilidad."
+          ],
+          "keywords": ["B"]
+        },
         {
           "name": "Aareon AG",
           "position": "Senior Backend Engineer",
